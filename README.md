@@ -41,9 +41,8 @@ solar-challenge-week0/
 
 > **Note:** `data/` folder is **ignored** via `.gitignore`. Only cleaned CSVs are saved locally.
 
----
 
-## Environment Setup
+## 🛠️ Environment Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -80,9 +79,8 @@ jupyter notebook
 → Open `notebooks/benin_eda.ipynb`  
 → **Kernel → Change Kernel → Python (solar-challenge)**
 
----
 
-## Git Workflow (Completed)
+## 🔀 Git Workflow (Completed)
 
 ```bash
 # Task 1: Environment & Git Setup
@@ -102,9 +100,8 @@ git commit -m "feat: add EDA and cleaning for Benin dataset"
 git push -u origin eda-benin
 ```
 
----
 
-## Task 2: Benin EDA (`benin_eda.ipynb`) – Key Steps
+## 📝 Task 2: Benin EDA (`benin_eda.ipynb`) – Key Steps
 
 | Step | Action |
 |------|-------|
@@ -116,29 +113,23 @@ git push -u origin eda-benin
 | 6 | Export → `data/benin_clean.csv` |
 | 7 | Generate **10+ visualizations** (line, bar, heatmap, scatter, bubble, wind rose) |
 
----
 
-## Key EDA Insights (Benin)
+## 💡 Key EDA Insights (Benin)
 
-- **Solar Peak:** GHI peaks ~12:00–14:00 daily.
-- **Cleaning Impact:** ModA/ModB increase **~8–12%** post-cleaning.
 - **Negative Correlation:** High `RH` → lower `GHI` (cloud cover effect).
 - **Strong Correlation:** `GHI ↔ DNI ↔ ModA/ModB` (> 0.95).
 - **Outliers Removed:** ~2.1% of rows (sensor errors at night).
 
----
 
-## CI/CD Pipeline
+## ⚙️ CI/CD Pipeline
 `.github/workflows/ci.yml` runs on every push/PR:
 ```yaml
-- Install dependencies
 - Run python --version
 - Lint check (future)
 ```
 
----
 
-## Next Steps (Final Submission)
+## 🚀 Next Steps (Final Submission)
 
 | Task | Status |
 |------|--------|
@@ -147,12 +138,9 @@ git push -u origin eda-benin
 | Interactive Streamlit Dashboard | `app/main.py` |
 | Final Medium-style PDF Report | To be written |
 
----
 
-## Submission Checklist (Interim – Nov 9)
+## ✅ Submission Checklist (Interim – Nov 9)
 
-- [x] GitHub repo: **public & up-to-date**  
-- [x] `main` branch: merged `setup-task`  
 - [x] `eda-benin` branch: full EDA + cleaned CSV  
 - [x] `requirements.txt` + `ci.yml`  
 - [x] PDF Report (3–5 pages) with:  
