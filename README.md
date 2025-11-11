@@ -1,4 +1,3 @@
-```markdown
 # Solar Challenge – Week 0  
 **10 Academy: Artificial Intelligence Mastery**  
 *Cross-Country Solar Farm Analysis*  
@@ -54,12 +53,12 @@ cd solar-challenge-week0
 ### 2. Create & Activate Virtual Environment
 ```bash
 # Windows
-python -m venv venv
-.\venv\Scripts\Activate.ps1
+python -m venv solar-challenge-week0
+.\solar-challenge-week0\Scripts\Activate.ps1
 
 # Linux / macOS
-python -m venv venv
-source venv/bin/activate
+python -m venv solar-challenge-week0
+source solar-challenge-week0/bin/activate
 ```
 
 ### 3. Install Dependencies
