@@ -18,7 +18,7 @@ pyvenv.cfg
 .ipynb_checkpoints/
 
 # Data
-data/
+# data/
 *.csv
 
 # VSCode
