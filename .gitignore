@@ -19,7 +19,7 @@ pyvenv.cfg
 
 # Data
 # data/
-*.csv
+# *.csv
 
 # VSCode
 .vscode/
